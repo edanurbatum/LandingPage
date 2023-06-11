@@ -1,0 +1,80 @@
+/*Text*/
+
+.text-center {
+    text-align: center;
+}
+
+.heading-small {
+    font-size: 1.25rem;
+}
+
+.heading-medium {
+    font-size: 1.5rem;
+}
+
+.heading-big {
+    font-size: 1.75rem;
+}
+
+/*Colors*/
+
+.bg-dark-green {
+    background: #004D39;
+}
+
+.bg-light-green {
+    background: #68946C;
+}
+
+/*Buttons*/
+
+.btn {
+    margin-top: 1.25rem;
+    padding: 0.4rem 1rem;
+    border-radius: 7px;
+}
+.btn-primary {
+    background: #2A2727;
+}
+.btn-primary:hover{
+    color: #2A2727;
+    background: #fff;
+    border: 0.5px solid #2A2727;
+}
+.btn-dark {
+    background: #202C22;
+}
+.btn-dark:hover{
+    color: #202C22;
+    background: #fff;
+    border: 0.5px solid #202C22;
+}
+.btn-block{
+    width:100%;
+    text-align:center;
+}
+
+/*Forms*/
+
+.form-group{
+    padding:0.25rem 0;
+}
+
+.form-group label{
+    display:block;
+}
+
+.form-control{
+    width:100%;
+    padding:0.4rem;
+    font-size:0.75rem;
+    resize:none;
+    border-radius:5px;
+}
+
+/*Container*/
+
+.container{
+    max-width:1100px;
+    margin:0 auto;
+}

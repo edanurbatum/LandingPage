@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edanur Batum</title>
+    <link rel="icon" type="image/png" href="./images/stars.png" />
+    <meta name="keywords" content="Python, Java, Javascript" />
+    <meta name="description" content="Edanur Batum Udemy Project" />
+
+    <!-- Font Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Css -->
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Tablet -->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css" />
+    <!-- Telefon -->
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css" />
+
+</head>
+<body>
+    <header class="bg-dark-green">
+        <nav class="container">
+            <nav id="navbar">
+                <h1 class="heading-small">Edanur Batum</h1>
+
+                <ul>
+                    <li><a href="#home">Anasayfa</a></li>
+                    <li><a href="#training">Eðitimler</a></li>
+                    <li><a href="#projects">Projeler</a></li>
+                    <li><a href="#contact">Ýletiþim</a></li>
+                </ul>
+            </nav>
+        </nav>
+    </header>
+
+    <section id="home">
+        <img id="icon" src="./images/icon.jpeg" alt="Edanur Batum" />
+
+        <div class="name text-center">
+            <h2 class="heading-medium">Edanur Batum</h2>
+            <p>Computer Engineer | Founder of Yazýlým Bilimi</p>
+        </div>
+        <a href="#projects" class="btn btn-primary">Projelere Git</a>
+    </section>
+
+    <section id="training" class="bg-dark-green">
+        <h3 class="text-center heading-small">Eðitimler</h3>
+
+        <div class="items">
+
+            <article class="item">
+                <i class="fa-solid fa-book-open"></i>
+                <h3>Sýnýf Ýçi Eðitimler</h3>
+                <p>
+                   C#, Java, OOP, .Net MVC, MsSQL, HTML, CSS, Python...
+                </p>
+            </article>
+
+            <article class="item">
+                <i class="fa-solid fa-book-open"></i>
+                <h3>Online Eðitimler</h3>
+                <p>
+                   Java, Java Swing, MySQL, HTML5, CSS3... 
+                </p>
+            </article>
+
+            <article class="item">
+                <i class="fa-solid fa-book-open"></i>
+                <h3>Konferanslar</h3>
+                <p>
+                    Yapay Zeka ve Veri Bilimi Zirvesi, DETECH'21'... 
+
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h3 class="text-center heading-medium">Projeler</h3>
+
+        <div class="container">
+            <div class="projects">
+                <!-- Proje 1 -->
+                <div class="project">
+                    <div class="project-image">
+                        <img id="projecticon" src="images/project1.png" alt="Project 1" />
+                        <span>Proje 1</span>
+                    </div>
+                    <div class="project-info">
+                        <div class="title">
+                            Yurt Takip Otomasyonu
+                        </div>
+                        <div class="description">
+                            Yurt takip sistemi isminde, yurtta kalan öðrencilerin sistem
+                            gereksinimleri üzerine düþünülüp tasarlanmýþ, Java yazýlým
+                            dilinin görsel arayüz paketi Java Swing ile kodlanmýþ yurt
+                            takip otomasyonu projemdir. MySQL ile veritabanlarý oluþturulmuþ
+                            olup, StudentLogin ve AdminLogin olarak iki giriþ sayfasý mevcuttur.
+                            Öðrenci tarafýnda izin iþlemleri, yetkililere bildirmek amacý ile
+                            arýza onarým talebi, þifre sýfýrlama, yurt görüþü bildirme ve yemekhane
+                            listelerini görüntüleme sayfalarý mevcut. Yönetici tarafýnda ise öðrenci
+                            kayýt iþlemleri, izin talebi görüntüleme cevaplandýrma, arýza taleplerini
+                            cevaplandýrma, yemekhane crud iþlemleri ve öðrenci tarafýndan bildirilen
+                            görüþleri görüntüleme sayfalarý mevcuttur.
+                        </div>
+                        <div class="date">
+                            24/08/2021
+                        </div>
+                        <div class="githublink">
+                            <a href="https://github.com/edanurbatum/dormitoryTracking">Github</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2.proje -->
+                <div class="project">
+                    <div class="project-image">
+                        <img id="projecticon" src="images/project2.png" alt="Project 1" />
+                        <span>Proje 2</span>
+                    </div>
+
+                    <div class="project-info">
+                        <div class="title">
+                            Hastahane Takip Otomasyonu
+                        </div>
+                        <div class="description">
+                            Java yazýlým dilinin görsel arayüz paketi Java Swing ile kodladýðým
+                            hastahane otomasyon projesidir. Veritabaný MySQL ile oluþturulmuþtur.
+                            Hastahane ile ilgili iþlemlerin yer aldýðý, doktor, sekreter ve admin
+                            olmak üzere 3 farklý kullanýcý giriþi içeren bir sistemdir.
+                            Doktor bölümünde reçete yazma ve önceki reçete kayýtlarýný görüntüleme,
+                            mevcut randevularýný görüntüleme, laboratuvar sonucu girme ve
+                            geçmiþ kayýtlarý görüntüleme sayfalarý mevcuttur. Yönetici kýsmýnda,
+                            hasta kayýtlarýný görüntüleme, doktor kayýtlarý(görüntüleme ve crud iþlemleri
+                            yetkisi), sekreter kayýtlarý(görüntüleme ve crud iþlemleri yetkisi) mevcuttur.
+                            Sekreter bölümünde ise randevu kaydý ekleme ve hasta kayýtlarý(kayýtlar üzerinde
+                            crud iþlemleri bölümleri içerir) sayfalarý mevcuttur.
+                        </div>
+                        <div class="date">
+                            08/09/2021
+                        </div>
+                        <div class="githublink">
+                            <a href="https://github.com/edanurbatum/hospitalTrackingProject">Github</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3.proje -->
+                <div class="project">
+                    <div class="project-image">
+                        <img id="projecticon" src="images/project3.png" alt="Project 1" />
+                        <span>Proje 3</span>
+                    </div>
+
+                    <div class="project-info">
+                        <div class="title">
+                            Smith-Waterman Algoritmasý
+                        </div>
+                        <div class="description">
+                            Smith-Waterman algoritmasý biyoinformatikte,
+                            protein veya nükleotit dizilerini(sekanslarý) arasýndaki
+                            benzer bölgeleri bulmak için kullanýlan bir algoritmadýr.
+                            Temple F. Smith and Michael S. Waterman tarafýndan 1981’de
+                            ortaya atýlmýþtýr. Bu projede Smith Waterman Algoritmasýnýn
+                            yazýlýmý yapýlmýþtýr.
+                        </div>
+                        <div class="date">
+                            19/04/2022
+                        </div>
+                        <div class="githublink">
+                            <a href="https://github.com/edanurbatum/SmithWatermanProject">Github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-dark-green">
+        <div class="contact-form">
+            <form>
+                <h4 class="text-center heading-medium">Bana Ulaþýn</h4>
+
+                <div class="form-group">
+                    <label for="name">Ýsim</label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Ýsim" />
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" class="form-control" name="email" id="email" placeholder="E-Mail" />
+                </div>
+                <div class="form-group">
+                    <label for="message">Mesaj</label>
+                    <textarea name="message" id="message" class="form-control" rows="5" placeholder="Mesajýnýz.."></textarea>
+                </div>
+                <button type="submit" class="btn btn-block">Gönder</button>
+            </form>
+
+            <ul>
+                <li>
+                    <a href="https://github.com/edanurbatum"><i class="fa-brands fa-github"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/edanur-batum-18a442207/"><i class="fa-brands fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
